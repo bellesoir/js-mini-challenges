@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font: normal 16px Georgia, Times, serif;
+    background-image: linear-gradient(lightBlue, #000);
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 100%;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: bolder;
+    padding: 10px;
+    text-align: center;
+}
+
+h2 {
+    font: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.exercises {
+    margin: 20px auto;
+    border: 2px solid darkBlue;
+    background-color: lightBlue;
+    width: 27em;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+p {
+    font: normal 16px Impact, arial,sans-serif;
+    display: inline-block;
+}
+
+input {
+    width: 150px;
+}
