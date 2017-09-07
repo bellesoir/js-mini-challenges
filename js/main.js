@@ -29,9 +29,11 @@ ex3Button.addEventListener('click', function(){
     var number = document.getElementById('ex3').value;
 
     if (number !== '') {
-        if (number < 100) {
+        if  {
             alert('This number is less than 100.');
-        }  else {
+        }  else if (number === 100){
+            alert('The number you entered is 100.')
+        } else {
             alert(number + ' is greater than 100.');
         }
     }
