@@ -6,7 +6,7 @@ body {
     font: normal 16px Georgia, Times, serif;
     background-image: linear-gradient(lightBlue, #000);
     background-repeat: no-repeat;
-    height: 800px;
+    height: 100vh;
     width: 100%;
     overflow: hidden;
 }
